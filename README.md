@@ -15,7 +15,7 @@ Dataset yang digunakan adalah Brazilian E-Commerce Public Dataset.
 
 ## Dashboard
 Dashboard dapat diakses melalui link berikut:
-(isi setelah deploy Streamlit)
+(https://ecommerce-dashboard-vxtnsmtmb3dtmzvgcbnfsu.streamlit.app/)
 
 ## Cara Menjalankan
 1. Install dependencies:
