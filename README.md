@@ -46,7 +46,7 @@ Setelah itu, dashboard akan terbuka di browser secara otomatis.
 
 Dashboard juga dapat diakses melalui link berikut:
 
-👉 (https://ecommerce-dashboard-vxtnsmtmb3dtmzvgcbnfsu.streamlit.app/)
+👉 (https://ecommerce-dashboard-trm6zzbhpxd4pkijjwcgxj.streamlit.app/)
 
 ---
 
