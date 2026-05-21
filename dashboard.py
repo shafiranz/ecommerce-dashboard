@@ -72,9 +72,16 @@ st.write(f"Jumlah data: {filtered_df.shape[0]}")
 # =========================
 st.header("1. Tren Transaksi Bulanan")
 
-monthly_orders_df = filtered_df.set_index('month').resample('M').agg({
-    "order_id": "nunique"
-})
+filtered_df['month'] = pd.to_datetime(filtered_df['month'])
+
+monthly_orders_df = (
+    filtered_df
+    .set_index('month')
+    .resample('MS')  # Monthly Start
+    .agg({
+        "order_id": "nunique"
+    })
+)
 
 st.line_chart(monthly_orders_df)
 
